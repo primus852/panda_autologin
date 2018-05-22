@@ -1,5 +1,6 @@
 # panda_autologin
-Login to Panda Security and resolve a given alert. This is part of a Symfony 3.4 project but should be easily convertable. Feel free to ask for assistance.
+Login to Panda Security and resolve a given alert.
+This is part of a Symfony 3.4 project but should be easily convertable. Feel free to ask for assistance.
 
 ## Use
 `$panda = new Panda('https://www.pandacloudsecurity.com/PandaLogin', $output);`
@@ -7,7 +8,7 @@ Login to Panda Security and resolve a given alert. This is part of a Symfony 3.4
 If you want to use this in the console, specifiy `OutputInterface` and get some debug messages
 
 Login to Panda (set Cookies and Session)
-`$panda->login('USERNAME','PASSWORD');
+`$panda->login('USERNAME','PASSWORD');`
 
 Resolve an alert:
 `$panda->getAlert('ALERTID','resolve');`
