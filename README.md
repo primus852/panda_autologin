@@ -18,3 +18,6 @@ The AlertId comes from the PCSM-Emails, they look like this:
 
 ### Bugs
 The "mute" does not seem to have any effect in the PCSM panel
+
+## License
+[MIT License](https://github.com/primus852/panda_autologin/blob/master/LICENSE)
