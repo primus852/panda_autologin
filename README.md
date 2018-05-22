@@ -7,10 +7,10 @@ This is part of a Symfony 3.4 project but should be easily convertable. Feel fre
 
 If you want to use this in the console, specifiy `OutputInterface` and get some debug messages
 
-Login to Panda (set Cookies and Session)
+### Login to Panda (set Cookies and Session)
 `$panda->login('USERNAME','PASSWORD');`
 
-Resolve an alert:
+### Resolve an alert:
 `$panda->getAlert('ALERTID','resolve');`
 
 The AlertId comes from the PCSM-Emails, they look like this: 
